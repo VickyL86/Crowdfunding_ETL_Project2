@@ -8,6 +8,7 @@ CREATE TABLE "campaign" (
     "contact_id" float(4)   NOT NULL,
     "company_name" varchar(50)   NOT NULL,
     "description" varchar(55)   NOT NULL,
+    "goal" float,
     "pledged" float,
     "backers_count" float,
     "country" varchar(2)   NOT NULL,
@@ -21,6 +22,9 @@ CREATE TABLE "campaign" (
      )
 );
 
+
+
+
 CREATE TABLE "category_df" (
     "category_id" varchar(4)   NOT NULL,
     "category" varchar(12)   NOT NULL,
@@ -33,7 +37,7 @@ CREATE TABLE "contacts_df" (
     "contact_id" float(4)   NOT NULL,
     "first_name" varchar(15)   NOT NULL,
     "last_name" varchar(15)   NOT NULL,
-    "email" varchar(40)   NOT NULL,
+    "email" varchar(42)   NOT NULL,
     CONSTRAINT "pk_contacts_df" PRIMARY KEY (
         "contact_id"
      )
