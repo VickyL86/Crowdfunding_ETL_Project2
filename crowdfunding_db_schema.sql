@@ -1,7 +1,7 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
--- Link to schema: https://app.quickdatabasediagrams.com/#/d/dK2y4Z
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+﻿
 
+
+--- PLEASE when importing csv into PostGre SQL load Campaign.csv last 
 
 CREATE TABLE "campaign" (
     "cf_id" float(5)   NOT NULL,
