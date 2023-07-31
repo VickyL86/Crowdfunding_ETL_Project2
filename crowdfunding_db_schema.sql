@@ -1,5 +1,5 @@
 ﻿
--- Schema coding - shared work Andrew and Vicky - complete over zoom as teamwork
+-- Schema coding - shared work Andrew and Vicky - completed over zoom / teamwork
 
 --- PLEASE when importing csv into PostGre SQL load Campaign.csv last 
 
